@@ -18,3 +18,4 @@ print('The area of the triangle is %0.2f' %area)
 
 
 #Area of triangle calculation
+#3
