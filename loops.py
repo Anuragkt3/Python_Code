@@ -28,10 +28,35 @@ while(num):
     r = num % 10
     p = p*r
     num = num//10
-print("Product of digits is",p) '''
+print("Product of digits is",p) 
 
 num = int(input("Enter the number: "))
 f = 1
 for i in range(1,num+1):
     f = f*i
 print("Factorial is",f)    
+
+# Program to sum to digits of a number
+i = int(input("Enter the number"))
+sum = 0
+while(i>0):
+    sum = sum+i%10
+    i = i//10
+print("The sum of digits is",sum)    
+
+# Sum of cube of digits
+i = int(input("Enter the number "))
+sum = 0
+while(i>0):
+    sum = sum + (i%10)*(i%10)*(i%10)
+    i = i//10
+print("The sum is",sum)  
+
+
+#Product of digits
+i = int(input("Enter the number: "))
+prod = 1
+while(i>0):
+    prod = prod*(i%10)
+    i = i//10
+print("The product is",prod) '''
