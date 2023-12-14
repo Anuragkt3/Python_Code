@@ -72,7 +72,7 @@ while(i>0):
 if ori==sum:
     print("Armstrong Number")
 else:
-    print("Not an Armstrong Number")        '''
+    print("Not an Armstrong Number")        
 
 # Find sum of even and product of odd number
 
@@ -86,7 +86,72 @@ while(i>0):
     else:
         prod = prod*d
     i = i//10
-print("The sum is",sum,"The product is",prod)                        
+print("The sum is",sum,"The product is",prod)           
+
+
+# Print Reverse Of a number
+i = int(input("Enter a number: "))
+rev = 0
+while(i>0):
+    rev = (rev*10) + i%10
+    i =i//10
+print("Reverse is",rev)    
+
+#Palendrome Number
+i = int(input("Enter a number: "))
+rev = 0
+origin = i
+while(i>0):
+    rev = (rev*10) + i%10
+    i =i//10 
+if rev == origin:
+        print("It is Palindrome Number")
+else:
+        print("Its not Palindrome")       
+    
+'''
+
+#Check a number is Prime Number or not 
+n = int(input("Enter the number"))
+count = 0
+i = 1
+while(i<=n):
+    if (n%i == 0):
+        count=count+1
+    i = i+1
+if (count==2):
+    print("Prime Number")
+else:
+    print("Not Prime")            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
