@@ -109,7 +109,7 @@ if rev == origin:
 else:
         print("Its not Palindrome")       
     
-'''
+
 
 #Check a number is Prime Number or not 
 n = int(input("Enter the number"))
@@ -132,10 +132,37 @@ while(i>0):
     i = i-1
 print("Factorial of {i} is",fact)        
 
+# Fibonaci Series
+n = int(input("Enter Number: "))
+while(z<=n):
+    print(z)
+    x=y
+    y=z
+    z=x+y
 
 
+#Print 1 to n using Python. Take input from user
+n= int(input("Enter the number: "))
+i = 1
+while(i<=n):
+    print(i)
+    i=i+1   
+
+n = int(input("Enter the number"))
+
+while(n>=1):
+    print(n)
+    n=n-1   '''
 
 
+#Sum of n natural number
+n = int(input("Enter n : "))
+i = 1
+sum = 0
+while(i<=n):
+    sum = sum+i
+    i = i+1
+print("The sum is:",sum)    
 
 
 
