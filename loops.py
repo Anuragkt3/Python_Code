@@ -152,7 +152,7 @@ n = int(input("Enter the number"))
 
 while(n>=1):
     print(n)
-    n=n-1   '''
+    n=n-1   
 
 
 #Sum of n natural number
@@ -162,7 +162,20 @@ sum = 0
 while(i<=n):
     sum = sum+i
     i = i+1
-print("The sum is:",sum)    
+print("The sum is:",sum)    '''
+
+#Find sum of first n even number
+n = int(input("Enter the value of natural number: "))
+i = 1
+sum = 0
+count = 0
+while(count<n):
+    if(i%2==0):
+        sum = sum+i
+        count = count+1
+    i = i + 1
+print("The sum is :",sum)        
+
 
 
 
